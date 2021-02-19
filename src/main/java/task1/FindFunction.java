@@ -6,6 +6,7 @@ public class FindFunction {
         double a = resultat(Math.random() * 1000 + 1000, Math.random() * 1000 + 1000, Math.random() * 1000 + 1000);
         double b = drobNumberOne(Math.random() * 1000 + 1000, Math.random() * 1000 + 1000, Math.random() * 1000 + 1000);
         double c = drobNumberTwo(Math.random() * 1000 + 1000, Math.random() * 1000 + 1000);
+        double d = changeDigits(123.456);
         System.out.println("a = " + a + "\nb = " + b + "\nc = " + c);
     }
 
@@ -21,6 +22,11 @@ public class FindFunction {
 
     public static double drobNumberTwo(double x, double y) {
         double result = (Math.sin(x) + Math.cos(y)) / (Math.cos(x) - Math.sin(y)) * Math.tan(x * y);
+        return result;
+    }
+
+    public static double changeDigits(double a) {
+        double result = 123;
         return result;
     }
 }
