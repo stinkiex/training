@@ -25,7 +25,10 @@ public class FindFunction {
         return result;
     }
 
-    public static double changeDigits(double a) {
+    public static double changeDigits(double r) {
+        String string = String.valueOf(r);
+        // TODO: 19.02.2021 Дописать дома;
+
         double result = 123;
         return result;
     }
