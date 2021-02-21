@@ -19,10 +19,10 @@ public class FindFunction {
     }
 
     public static double changeDigits(double r) {
-        String string = String.valueOf(r);
-        // TODO: 19.02.2021 Дописать дома;
-
-        double result = 123;
+        int a = (int) r;
+        int b = (int) ((r - a) * 1000);
+        double result = b;
+        result = result + Double.valueOf(a) / 1000;
         return result;
     }
 }

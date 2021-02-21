@@ -8,7 +8,8 @@ public class Main {
         double a = resultat(Math.random() * 1000 + 1000, Math.random() * 1000 + 1000, Math.random() * 1000 + 1000);
         double b = drobNumberOne(Math.random() * 1000 + 1000, Math.random() * 1000 + 1000, Math.random() * 1000 + 1000);
         double c = drobNumberTwo(Math.random() * 1000 + 1000, Math.random() * 1000 + 1000);
-        double d = changeDigits(123.456);
+        double d = 123.456;
+        System.out.println(d + "  " + changeDigits(d));
         Point point = new Point(2,2);
         boolean e = Point.isPoint(point);
         System.out.println(e);
