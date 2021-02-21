@@ -40,5 +40,9 @@ public class Main {
         Function function2 = new Function(4);
         System.out.println(function2.getY());
 
+        int h = (int)(Math.random()*100+100);
+        System.out.println("Сумма чисел от 1 до "+ h + " равна " + Numbers.sumOfNumbers(h));
+        System.out.println("Сумма квадратов первых 100 чисел равна " + Numbers.sumOfSquares(100));
+
     }
 }
