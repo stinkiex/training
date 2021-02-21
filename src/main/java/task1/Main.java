@@ -35,5 +35,10 @@ public class Main {
         boolean g = brick.isBrickInHole(hole);
         System.out.println(g);
 
+        Function function = new Function(3);
+        System.out.println(function.getY());
+        Function function2 = new Function(4);
+        System.out.println(function2.getY());
+
     }
 }
