@@ -43,7 +43,19 @@ public class Main {
 
         int h = (int)(Math.random()*100+100);
         System.out.println("Сумма чисел от 1 до "+ h + " равна " + Numbers.sumOfNumbers(h));
+
+        FunctionOnSection.functionOnsetion(-13,15, 2.5);
+
         System.out.println("Сумма квадратов первых 100 чисел равна " + Numbers.sumOfSquares(100));
+        System.out.println("Произведение квадратов первых 200 чисел равно: \n " + Numbers.multiplyOfSquares(200));
+        // TODO: 22.02.2021 Циклы 5;
+
+        //todo Циклы 6;
+        //todo Циклы 7;
+        //todo Циклы 8;
+
+
+
 
     }
 }
