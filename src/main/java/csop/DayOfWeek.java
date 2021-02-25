@@ -13,28 +13,28 @@ public class DayOfWeek {
 
         switch (dw) {
             case (1):
-                System.out.println("понедельник");
+                System.out.println("ПОНЕДЕЛЬНИК");
                 break;
             case (2):
-                System.out.println("вторник");
+                System.out.println("ВТОРНИК");
                 break;
             case (3):
-                System.out.println("среда");
+                System.out.println("СРЕДА");
                 break;
             case (4):
-                System.out.println("четверг");
+                System.out.println("ЧЕТВЕРГ");
                 break;
             case (5):
-                System.out.println("пятница");
+                System.out.println("ПЯТНИЦА");
                 break;
             case (6):
-                System.out.println("суббота");
+                System.out.println("СУББОТА");
                 break;
             case (0):
-                System.out.println("воскресение");
+                System.out.println("ВОСКРЕСЕНИЕ");
                 break;
             default:
-                System.out.print("Error!");
+                System.err.print("ОШИБКА: Что-то введено не верно");
                 ;
                 break;
         }
