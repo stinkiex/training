@@ -12,7 +12,7 @@ public class RandomFromAtoB {
             a = (int) (Math.random() * 10 + 100);
             b = (int) (Math.random() * 10 + 100);
         }
-        d = sumFromOnetoSix();
+        d = sumFromOneToSix();
         c = randomize(a, b);
         System.out.println(c + "\n" + d);
     }
@@ -22,11 +22,10 @@ public class RandomFromAtoB {
         return r;
     }
 
-    public static int sumFromOnetoSix() {
+    public static int sumFromOneToSix() {
         int a = (int) (1 + Math.random() * 6);
         int b = (int) (1 + Math.random() * 6);
         int r = a + b;
         return r;
     }
-
 }
